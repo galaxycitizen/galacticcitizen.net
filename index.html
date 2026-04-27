@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Galactic Citizen — The Star Wars Game That Should Exist</title>
 <meta name="description" content="A Star Wars universe where AI runs the entire galaxy and you're just a citizen trying to survive it. No chosen one. No protected canon. Every era. Every choice.">
+<link rel="icon" type="image/png" href="ikon.png">
+<link rel="apple-touch-icon" href="ikon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 <style>
@@ -541,6 +543,18 @@
 
 <div class="stars"></div>
 
+<!-- NAV -->
+<nav style="position:fixed; top:0; left:0; right:0; z-index:100; padding:1rem 2rem; display:flex; align-items:center; justify-content:space-between; background:linear-gradient(180deg, rgba(4,8,15,0.9) 0%, transparent 100%); pointer-events:none;">
+  <div style="display:flex; align-items:center; gap:0.75rem; pointer-events:all;">
+    <img src="ikon.png" alt="Galactic Citizen Logo" style="width:44px; height:44px; border-radius:50%; object-fit:cover; border:1px solid rgba(255,232,31,0.3);">
+    <span style="font-family:'Cinzel',serif; font-size:0.7rem; font-weight:600; letter-spacing:0.2em; color:var(--gold); text-transform:uppercase;">Galactic Citizen</span>
+  </div>
+  <div style="display:flex; gap:1.5rem; pointer-events:all;">
+    <a href="#concept" style="font-family:'Cinzel',serif; font-size:0.55rem; letter-spacing:0.2em; color:var(--text-dim); text-decoration:none; text-transform:uppercase; transition:color 0.3s;" onmouseover="this.style.color='#FFE81F'" onmouseout="this.style.color='#7a7060'">Concept</a>
+    <a href="#join" style="font-family:'Cinzel',serif; font-size:0.55rem; letter-spacing:0.2em; color:var(--text-dim); text-decoration:none; text-transform:uppercase; transition:color 0.3s;" onmouseover="this.style.color='#FFE81F'" onmouseout="this.style.color='#7a7060'">Join</a>
+  </div>
+</nav>
+
 <!-- HERO -->
 <section class="hero">
   <p class="hero-eyebrow">A concept for the future of Star Wars gaming</p>
@@ -799,11 +813,11 @@
     <div class="reveal" style="margin-top:5rem;">
       <p class="section-label">Find us everywhere</p>
       <div class="socials-grid">
-        <a href="https://www.reddit.com/r/GalacticCitizen/" target="_blank" class="social-link">
+        <a href="https://reddit.com/r/GalacticCitizen" target="_blank" class="social-link">
           <div class="social-platform">Reddit</div>
           <div class="social-handle">r/GalacticCitizen</div>
         </a>
-        <a href="https://discord.com/invite/zKQ2ZBy8Ct" target="_blank" class="social-link">
+        <a href="https://discord.gg/YOURINVITELINK" target="_blank" class="social-link">
           <div class="social-platform">Discord</div>
           <div class="social-handle">Join the server</div>
         </a>
@@ -830,6 +844,7 @@
 
 <!-- FOOTER -->
 <footer>
+  <img src="ikon.png" alt="GC" style="width:40px; height:40px; border-radius:50%; object-fit:cover; opacity:0.5; margin-bottom:1rem;">
   <p>Galactic Citizen is a fan concept. Star Wars is a trademark of Lucasfilm Ltd. / The Walt Disney Company.</p>
   <p>This project claims no rights to the Star Wars IP. Built with passion by a fan.</p>
 </footer>
